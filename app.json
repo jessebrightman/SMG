@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Smart Money Gains",
+    "icon": "./src/assets/icons/Smart-Money-Gains-logo-square.png",
+    "version": "2.0.1",
+    "slug": "SmartMoneyGains",
+    "sdkVersion": "35.0.0",
+    "privacy": "public",
+    "orientation": "portrait",
+    "ios": {
+      "bundleIdentifier": "com.jessebrightman.smartmoneygains",
+      "appStoreUrl": "https://itunes.apple.com/us/app/smartmoneygains/id1234567890"
+    },
+    "android": {
+      "package": "com.jessebrightman.smartmoneygains",
+      "versionCode": 0,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.jessebrightman.smartmoneygains"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#FFFFFF"
+    },
+    "assetBundlePatterns": [
+      "src/assets/images/source/*",
+      "src/assets/icons/**/*.png",
+      "src/assets/fonts"
+    ],
+    "splash": {
+      "image": "src/assets/images/source/Smart-Money-Gains-logo-square.png",
+      "resizeMode": "contain"
+    }
+  }
+}
